@@ -6,7 +6,8 @@
         "config" : {"maxLambdaSize":"15mb"}
         },
         {
-            "src":"build_.sh"
+            "src":"build_.sh",
+            "use" : "@vercel/static-build"
         }
             ],
     "routes":[{
