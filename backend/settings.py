@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-qd!i_t0)9@%^76^pu6zrewcc23a9ok^y5ae45eynm&1&9-109d
 DEBUG = False
 ALLOWED_HOSTS = [
     '127.0.0.1',
+    'vercel.app',
     'localhost',
-    'https://customsitemadebyme.netlify.app',
-    'vercel.app'
+    '.netlify.app'
 ]
 
 
@@ -81,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.app'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 
 # Database
